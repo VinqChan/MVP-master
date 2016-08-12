@@ -11,6 +11,9 @@ import com.app.mvp.R;
 import com.app.mvp.bean.UserBean;
 import com.app.mvp.presenter.UserPresenter;
 
+/**
+ * MVP demo  by Vinchan
+ */
 public class MainActivity extends Activity implements  IUserView, View.OnClickListener{
 
     private EditText inputId, inputName, inputAddr;
